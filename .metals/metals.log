@@ -397,3 +397,113 @@ WARNING: Unmatched cancel notification for request id 2226
 Feb 17, 2023 1:13:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
 2023.02.17 13:13:28 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.68s
+Feb 17, 2023 1:19:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2529
+Feb 17, 2023 1:19:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2547
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:63:24: 
+Found:    Int
+Required: Int => Int
+def prodFact = product(fact(x))
+                       ^^^^^^^
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:51:5: 
+Double definition:
+def fact(x: Int): Int in class MdocApp at line 34 and
+def fact(x: Int): Int in class MdocApp at line 97
+have the same type after erasure.
+
+Consider adding a @targetName annotation to one of the conflicting definitions
+for disambiguation.
+def fact(x: Int): Int = 
+    ^
+2023.02.17 13:21:50 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.47s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:51:5: 
+Double definition:
+def fact(x: Int): Int in class MdocApp at line 34 and
+def fact(x: Int): Int in class MdocApp at line 97
+have the same type after erasure.
+
+Consider adding a @targetName annotation to one of the conflicting definitions
+for disambiguation.
+def fact(x: Int): Int = 
+    ^
+2023.02.17 13:22:05 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.38s
+Feb 17, 2023 1:22:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3193
+2023.02.17 13:22:31 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.61s
+2023.02.17 13:22:33 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.74s
+2023.02.17 13:22:34 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.76s
+2023.02.17 13:22:58 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.75s
+2023.02.17 13:23:10 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.69s
+2023.02.17 13:23:37 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.64s
+2023.02.17 13:25:10 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.81s
+Feb 17, 2023 1:26:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3541
+Feb 17, 2023 1:28:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3764
+Feb 17, 2023 1:28:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3765
+Feb 17, 2023 1:28:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3767
+2023.02.17 13:28:09 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.11.10' (since 59m 24.006s)
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:62:28: 
+Not found: f
+      if a > b then 1 else f(a) * product(f)(a + 1, b)
+                           ^
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:64:28: 
+Not found: f
+      if a > b then 0 else f(a) + sumV3(f)(a + 1, b)
+                           ^
+[33mwarning[39m: src\main\scala\playground\playground.worksheet.sc:62:21: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+      if a > b then 1 else f(a) * product(f)(a + 1, b)
+                    ^
+[33mwarning[39m: src\main\scala\playground\playground.worksheet.sc:64:21: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+      if a > b then 0 else f(a) + sumV3(f)(a + 1, b)
+                    ^
+2023.02.17 13:28:11 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.44s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:62:28: 
+Not found: f
+      if a > b then 1 else f(a) * product(f)(a + 1, b)
+                           ^
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:64:28: 
+Not found: f
+      if a > b then 0 else f(a) + sumV3(f)(a + 1, b)
+                           ^
+[33mwarning[39m: src\main\scala\playground\playground.worksheet.sc:62:21: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+      if a > b then 1 else f(a) * product(f)(a + 1, b)
+                    ^
+[33mwarning[39m: src\main\scala\playground\playground.worksheet.sc:64:21: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+      if a > b then 0 else f(a) + sumV3(f)(a + 1, b)
+                    ^
+2023.02.17 13:28:11 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.43s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:61:5: 
+Found:    Unit
+Required: Int
+    if str == "product" then 
+    ^
+2023.02.17 13:28:57 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.34s
+Feb 17, 2023 1:30:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3896
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:63:5: 
+Found:    Unit
+Required: Int
+    if str == "product" then 
+    ^
+2023.02.17 13:31:12 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.35s
+2023.02.17 13:31:17 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.55s
+2023.02.17 13:31:51 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.78s
+2023.02.17 13:31:58 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.67s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:57:35: 
+Not found: n
+def factV2   = product(x => x)(1, n)
+                                  ^
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:62:1: 
+method factV2 in class MdocApp does not take parameters
+factV2(5)
+^^^^^^
+2023.02.17 13:33:22 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.3s
+2023.02.17 13:33:53 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.66s

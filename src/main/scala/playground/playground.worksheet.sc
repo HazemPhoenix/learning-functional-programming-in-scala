@@ -46,3 +46,17 @@ def sumIntsV2 = sumV3(x => x)
 def sumCubesV2 = sumV3(x => x * x * x)
 sumIntsV2(2,4)
 sumCubesV2(2,4)
+
+
+def product(f: Int => Int)(a: Int, b: Int): Int =
+    if a > b then 1 else f(a) * product(f)(a + 1, b)
+
+def prodInts = product(x => x)
+def prodSqr  = product(x => x * x)
+def prodFact = product(fact)
+def factV2(n: Int)   = product(x => x)(1, n)
+
+prodInts(2,4)
+prodSqr(2,4)
+prodFact(2,4)
+factV2(5)
