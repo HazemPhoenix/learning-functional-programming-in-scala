@@ -507,3 +507,136 @@ factV2(5)
 ^^^^^^
 2023.02.17 13:33:22 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.3s
 2023.02.17 13:33:53 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.66s
+2023.02.17 13:48:26 INFO  shutting down Metals
+2023.02.17 13:48:26 INFO  Shut down connection with build server.
+2023.02.17 13:48:26 INFO  Shut down connection with build server.
+2023.02.17 18:47:10 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\hazem\Desktop\scala\scala-project\.metals\lsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.17 18:47:14 INFO  logging to file C:\Users\hazem\Desktop\scala\scala-project\.metals\metals.log
+2023.02.17 18:47:14 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\hazem\Desktop\scala\scala-project' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/hazem/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.17 18:47:16 INFO  time: initialize in 2.17s
+2023.02.17 18:47:22 INFO  no build target found for C:\Users\hazem\Desktop\scala\scala-project\src\main\scala\playground\playground.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.17 18:47:23 INFO  Attempting to connect to the build server...
+2023.02.17 18:47:23 INFO  skipping build import with status 'Cancelled'
+2023.02.17 18:47:23 INFO  Bloop uses C:\Users\hazem\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\hazem\.bloop\bloop.json
+Feb 17, 2023 6:47:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Feb 17, 2023 6:47:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Feb 17, 2023 6:47:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Feb 17, 2023 6:47:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+2023.02.17 18:47:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hazem\Desktop\scala\scala-project\.metals\bsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.17 18:47:24 INFO  Attempting to connect to the build server...
+2023.02.17 18:47:24 INFO  Bloop uses C:\Users\hazem\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\hazem\.bloop\bloop.json
+2023.02.17 18:47:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hazem\Desktop\scala\scala-project\project\.metals\bsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.17 18:47:24 INFO  time: Connected to build server in 1.43s
+2023.02.17 18:47:24 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.17 18:47:24 INFO  time: Imported build in 0.22s
+2023.02.17 18:47:28 INFO  time: code lens generation in 1.3s
+2023.02.17 18:47:28 INFO  time: code lens generation in 4.92s
+2023.02.17 18:47:30 INFO  no build target found for C:\Users\hazem\Desktop\scala\scala-project\src\main\scala\playground\playground.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.17 18:47:31 INFO  time: code lens generation in 6.67s
+2023.02.17 18:47:31 INFO  time: code lens generation in 7.1s
+2023.02.17 18:47:31 INFO  time: code lens generation in 6.79s
+2023.02.17 18:47:30 INFO  time: code lens generation in 6.38s
+2023.02.17 18:47:31 INFO  time: code lens generation in 1.77s
+2023.02.17 18:47:31 INFO  time: code lens generation in 6.93s
+2023.02.17 18:47:31 INFO  time: code lens generation in 1.27s
+2023.02.17 18:47:31 INFO  time: indexed workspace in 6.9s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:66:7: Procedure syntax is not supported. Convert procedure `num` to method by adding `: Unit =`.
+  def num
+      ^^^
+2023.02.17 18:47:43 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 7.07s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:66:15: illegal start of simple expression
+  def numer = 
+              ^
+2023.02.17 18:47:46 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.7s
+Feb 17, 2023 6:49:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 419
+Feb 17, 2023 6:50:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 476
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:81:19: 
+value sum is not a member of MdocApp.this.Rational
+val sumRational = a.sum(b)
+                  ^^^^^
+2023.02.17 18:52:34 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.19s
+2023.02.17 18:52:43 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 2.09s
+2023.02.17 18:53:11 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.6s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:75:13: 
+None of the overloaded alternatives of method * in class Int with types
+ (x: Double): Double
+ (x: Float): Float
+ (x: Long): Long
+ (x: Int): Int
+ (x: Char): Int
+ (x: Short): Int
+ (x: Byte): Int
+match arguments (MdocApp.this.Rational)
+  def neg = -1 * Rational(numer, denom)
+            ^^^^
+2023.02.17 18:55:36 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.68s
+2023.02.17 18:56:06 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.36s
+2023.02.17 18:56:33 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.31s
+2023.02.17 18:57:35 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.2s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:91:5: 
+Double definition:
+val x: Int in class MdocApp at line 12 and
+val x: MdocApp.this.Rational in class MdocApp at line 181
+
+val x = Rational(1,3)
+    ^
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:92:5: 
+Double definition:
+val y: Int in class MdocApp at line 21 and
+val y: MdocApp.this.Rational in class MdocApp at line 185
+
+val y = Rational(5,7)
+    ^
+2023.02.17 18:59:10 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.64s
+2023.02.17 18:59:53 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.98s
+2023.02.17 19:00:23 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.07s
+2023.02.17 19:00:37 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.16s
+2023.02.17 19:14:49 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.96s
+2023.02.17 19:14:57 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.07s
+2023.02.17 19:15:09 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.87s
+2023.02.17 19:15:30 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.11s
+2023.02.17 19:26:55 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.18s
+2023.02.17 19:27:09 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.96s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:94:1: 
+missing argument for parameter y of constructor Rational in class Rational: (x: Int, y: Int): MdocApp.this.Rational
+Rational(2)
+^^^^^^^^^^^
+2023.02.17 19:27:54 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.47s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:60:3: 
+value update is not a member of MdocApp.this.Rational
+  this(x: Int) = this(x, 1)
+  ^^^^
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:60:18: 
+class Rational in class MdocApp does not take parameters
+  this(x: Int) = this(x, 1)
+                 ^^^^
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:94:1: 
+missing argument for parameter y of constructor Rational in class Rational: (x: Int, y: Int): MdocApp.this.Rational
+Rational(2)
+^^^^^^^^^^^
+2023.02.17 19:28:44 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.55s
+2023.02.17 19:28:57 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.89s
+Feb 17, 2023 7:30:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2573
+2023.02.17 19:30:48 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.94s
+2023.02.17 19:30:54 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.95s
+2023.02.17 19:33:40 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.84s
+2023.02.17 19:33:53 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.84s
+2023.02.17 19:33:59 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.88s
+2023.02.17 19:34:11 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.91s
+2023.02.17 19:34:17 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.91s
+2023.02.17 19:34:41 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.75s
+2023.02.17 19:34:51 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.05s
+2023.02.17 19:35:39 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.83s

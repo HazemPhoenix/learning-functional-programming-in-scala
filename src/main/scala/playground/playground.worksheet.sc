@@ -1,11 +1,3 @@
-1 + 1
-
-val x = 42
-
-x * x
-
-val y = 30
-  
 
 def sum(xs: List[Int]): Int = 
     if(xs.isEmpty) then 0
@@ -60,3 +52,43 @@ prodInts(2,4)
 prodSqr(2,4)
 prodFact(2,4)
 factV2(5)
+
+
+class Rational(x: Int, y: Int):
+  private def gcd(a: Int, b: Int): Int =
+    if b == 0 then a else gcd(b, a%b)
+
+  def this(x: Int) = this(x, 1)
+  val g = gcd(x.abs, y)
+  
+  def numer = x 
+  def denom = y 
+
+  def add(r: Rational): Rational =
+    Rational(numer * r.denom + denom * r.numer, denom * r.denom)
+
+  def sub(r: Rational): Rational = 
+    Rational(numer * r.denom - denom * r.numer, denom * r.denom)
+
+  def mult(r: Rational): Rational =
+    Rational(numer * r.numer, denom * r.denom)
+
+  def neg = Rational(-numer, denom)
+  
+  override def toString = s"${numer / g}/${denom / g}"
+end Rational
+
+val a = Rational(1,2)
+val b = Rational(3,2)
+val neg = a.neg
+val negception = neg.neg
+val sumRational = a.add(b)
+val multRational = a.mult(b)
+val subRational = b.sub(a)
+
+val x = Rational(1,3)
+val y = Rational(5,7)
+val z = Rational(3,2)
+x.sub(y).sub(z)
+
+Rational(2)
