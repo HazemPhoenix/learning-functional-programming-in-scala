@@ -640,3 +640,358 @@ WARNING: Unmatched cancel notification for request id 2573
 2023.02.17 19:34:41 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.75s
 2023.02.17 19:34:51 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.05s
 2023.02.17 19:35:39 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.83s
+2023.02.17 19:41:08 INFO  shutting down Metals
+2023.02.17 19:41:08 INFO  Shut down connection with build server.
+2023.02.17 19:41:08 INFO  Shut down connection with build server.
+2023.02.20 17:47:41 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\hazem\Desktop\scala\scala-project\.metals\lsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.20 17:47:45 INFO  logging to file C:\Users\hazem\Desktop\scala\scala-project\.metals\metals.log
+2023.02.20 17:47:45 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\hazem\Desktop\scala\scala-project' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/hazem/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.20 17:47:47 INFO  time: initialize in 2.59s
+2023.02.20 17:47:51 INFO  Attempting to connect to the build server...
+2023.02.20 17:47:51 INFO  Bloop uses C:\Users\hazem\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\hazem\.bloop\bloop.json
+2023.02.20 17:47:51 INFO  skipping build import with status 'Cancelled'
+2023.02.20 17:47:59 INFO  no build target found for C:\Users\hazem\Desktop\scala\scala-project\src\main\scala\playground\playground.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.20 17:48:05 INFO  time: code lens generation in 14s
+2023.02.20 17:48:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hazem\Desktop\scala\scala-project\.metals\bsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.20 17:48:14 INFO  Attempting to connect to the build server...
+2023.02.20 17:48:14 INFO  Bloop uses C:\Users\hazem\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\hazem\.bloop\bloop.json
+2023.02.20 17:48:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hazem\Desktop\scala\scala-project\project\.metals\bsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.20 17:48:14 INFO  time: Connected to build server in 23s
+2023.02.20 17:48:14 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.20 17:48:15 INFO  time: Imported build in 0.26s
+2023.02.20 17:48:25 INFO  time: indexed workspace in 9.99s
+2023.02.20 17:48:43 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 13s
+2023.02.20 17:48:48 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 2.36s
+2023.02.20 17:49:06 INFO  shutting down Metals
+2023.02.20 17:49:06 INFO  Shut down connection with build server.
+2023.02.20 17:49:06 INFO  Shut down connection with build server.
+2023.02.20 17:49:29 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\hazem\Desktop\scala\scala-project\.metals\lsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.20 17:49:32 INFO  logging to file C:\Users\hazem\Desktop\scala\scala-project\.metals\metals.log
+2023.02.20 17:49:32 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\hazem\Desktop\scala\scala-project' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/hazem/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.20 17:49:35 INFO  time: initialize in 2.51s
+2023.02.20 17:49:39 INFO  Attempting to connect to the build server...
+2023.02.20 17:49:39 INFO  Bloop uses C:\Users\hazem\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\hazem\.bloop\bloop.json
+2023.02.20 17:49:39 INFO  skipping build import with status 'Cancelled'
+2023.02.20 17:49:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hazem\Desktop\scala\scala-project\.metals\bsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.20 17:49:39 INFO  Attempting to connect to the build server...
+2023.02.20 17:49:39 INFO  Bloop uses C:\Users\hazem\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\hazem\.bloop\bloop.json
+2023.02.20 17:49:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hazem\Desktop\scala\scala-project\project\.metals\bsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.20 17:49:39 INFO  time: Connected to build server in 0.5s
+2023.02.20 17:49:39 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.20 17:49:43 INFO  no build target found for C:\Users\hazem\Desktop\scala\scala-project\src\main\scala\playground\playground.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.20 17:49:43 INFO  time: code lens generation in 4.76s
+2023.02.20 17:49:43 INFO  time: Imported build in 0.13s
+2023.02.20 17:49:47 INFO  time: indexed workspace in 3.61s
+2023.02.20 17:50:01 INFO  time: code lens generation in 1.31s
+2023.02.20 17:50:03 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 11s
+2023.02.20 17:50:07 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 2.19s
+2023.02.20 17:57:27 INFO  shutting down Metals
+2023.02.20 17:57:27 INFO  Shut down connection with build server.
+2023.02.20 17:57:27 INFO  Shut down connection with build server.
+2023.02.20 20:32:03 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\hazem\Desktop\scala\scala-project\.metals\lsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.20 20:32:07 INFO  logging to file C:\Users\hazem\Desktop\scala\scala-project\.metals\metals.log
+2023.02.20 20:32:07 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\hazem\Desktop\scala\scala-project' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/hazem/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.20 20:32:09 INFO  time: initialize in 2.55s
+2023.02.20 20:32:13 INFO  Attempting to connect to the build server...
+2023.02.20 20:32:13 INFO  Bloop uses C:\Users\hazem\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\hazem\.bloop\bloop.json
+2023.02.20 20:32:14 INFO  skipping build import with status 'Cancelled'
+Feb 20, 2023 8:32:15 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.02.20 20:32:21 INFO  no build target found for C:\Users\hazem\Desktop\scala\scala-project\src\main\scala\playground\playground.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.20 20:32:22 INFO  shutting down Metals
+2023.02.23 15:16:17 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\hazem\Desktop\scala\scala-project\.metals\lsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.23 15:16:19 INFO  logging to file C:\Users\hazem\Desktop\scala\scala-project\.metals\metals.log
+2023.02.23 15:16:19 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\hazem\Desktop\scala\scala-project' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/hazem/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.23 15:16:21 INFO  time: initialize in 2.62s
+2023.02.23 15:16:24 INFO  Attempting to connect to the build server...
+2023.02.23 15:16:24 INFO  Bloop uses C:\Users\hazem\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\hazem\.bloop\bloop.json
+2023.02.23 15:16:25 INFO  skipping build import with status 'Cancelled'
+2023.02.23 15:16:32 INFO  no build target found for C:\Users\hazem\Desktop\scala\scala-project\src\main\scala\playground\playground.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.23 15:16:37 INFO  time: code lens generation in 10s
+2023.02.23 15:16:37 INFO  time: code lens generation in 12s
+2023.02.23 15:16:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hazem\Desktop\scala\scala-project\.metals\bsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.23 15:16:40 INFO  Attempting to connect to the build server...
+2023.02.23 15:16:40 INFO  Bloop uses C:\Users\hazem\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\hazem\.bloop\bloop.json
+2023.02.23 15:16:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hazem\Desktop\scala\scala-project\project\.metals\bsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.23 15:16:40 INFO  time: Connected to build server in 15s
+2023.02.23 15:16:40 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.23 15:16:41 INFO  time: Imported build in 0.45s
+2023.02.23 15:16:50 INFO  time: indexed workspace in 9.4s
+2023.02.23 15:17:37 INFO  shutting down Metals
+2023.02.23 15:17:37 INFO  Shut down connection with build server.
+2023.02.23 15:17:37 INFO  Shut down connection with build server.
+Feb 23, 2023 3:17:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:344)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:344)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:281)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:121)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:114)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SocketChannelImpl.endWrite(SocketChannelImpl.java:447)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2023.02.23 15:17:37 INFO  Cancelling compilation on Bloop server
+2023.02.23 15:17:37 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.19s
+2023.02.23 15:17:50 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\hazem\Desktop\scala\scala-project\.metals\lsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.02.23 15:17:51 INFO  logging to file C:\Users\hazem\Desktop\scala\scala-project\.metals\metals.log
+2023.02.23 15:17:51 INFO  Started: Metals version 0.11.10 in workspace 'C:\Users\hazem\Desktop\scala\scala-project' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/hazem/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.23 15:17:54 INFO  time: initialize in 2.65s
+2023.02.23 15:17:56 INFO  Attempting to connect to the build server...
+2023.02.23 15:17:56 INFO  Bloop uses C:\Users\hazem\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\hazem\.bloop\bloop.json
+2023.02.23 15:17:56 INFO  skipping build import with status 'Cancelled'
+2023.02.23 15:17:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hazem\Desktop\scala\scala-project\.metals\bsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.23 15:17:56 INFO  Attempting to connect to the build server...
+2023.02.23 15:17:56 INFO  Bloop uses C:\Users\hazem\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\hazem\.bloop\bloop.json
+2023.02.23 15:17:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hazem\Desktop\scala\scala-project\project\.metals\bsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.23 15:17:56 INFO  time: Connected to build server in 0.52s
+2023.02.23 15:17:56 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.23 15:18:00 INFO  no build target found for C:\Users\hazem\Desktop\scala\scala-project\src\main\scala\playground\playground.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.23 15:18:01 INFO  time: Imported build in 0.25s
+Feb 23, 2023 3:18:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.02.23 15:18:06 INFO  time: code lens generation in 2.22s
+2023.02.23 15:18:06 INFO  time: code lens generation in 5.08s
+2023.02.23 15:18:06 INFO  time: code lens generation in 4.23s
+2023.02.23 15:18:06 INFO  time: code lens generation in 4.88s
+2023.02.23 15:18:06 INFO  time: code lens generation in 4.35s
+2023.02.23 15:18:06 INFO  time: code lens generation in 4.51s
+2023.02.23 15:18:06 INFO  time: code lens generation in 4.76s
+2023.02.23 15:18:06 INFO  time: code lens generation in 4.63s
+2023.02.23 15:18:06 INFO  time: code lens generation in 1.01s
+2023.02.23 15:18:06 INFO  time: code lens generation in 3.97s
+2023.02.23 15:18:06 INFO  time: code lens generation in 4.11s
+2023.02.23 15:18:06 INFO  time: code lens generation in 5.43s
+2023.02.23 15:18:06 INFO  time: code lens generation in 1.67s
+2023.02.23 15:18:06 INFO  time: code lens generation in 5.09s
+2023.02.23 15:18:06 INFO  time: code lens generation in 2.77s
+2023.02.23 15:18:07 INFO  time: indexed workspace in 6.14s
+2023.02.23 15:18:09 INFO  time: code lens generation in 1.06s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:96:1: 
+Not found: extention
+extention(x: Rational)  
+^^^^^^^^^
+2023.02.23 15:18:22 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 9.9s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:96:1: 
+Not found: extention
+extention(x: Rational)  
+^^^^^^^^^
+2023.02.23 15:18:45 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.19s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:96:1: 
+Not found: extention
+extention(x: Rational) 
+^^^^^^^^^
+2023.02.23 15:18:51 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.09s
+2023.02.23 15:18:58 INFO  running 'C:\Users\hazem\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk11-binaries\releases\download\jdk-11%252B28\OpenJDK11-jdk_x64_windows_hotspot_11_28.zip\jdk-11+28\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\hazem\AppData\Local\Temp\metals11251452075239723323\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.02.23 15:19:02 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 11)
+2023.02.23 15:19:04 INFO  [info] loading settings for project scala-project-build-build from metals.sbt ...
+2023.02.23 15:19:04 INFO  [info] loading project definition from C:\Users\hazem\Desktop\scala\scala-project\project\project
+2023.02.23 15:19:06 INFO  [info] loading settings for project scala-project-build from metals.sbt ...
+2023.02.23 15:19:06 INFO  [info] loading project definition from C:\Users\hazem\Desktop\scala\scala-project\project
+2023.02.23 15:19:11 INFO  [success] Generated .bloop\scala-project-build.json
+2023.02.23 15:19:11 INFO  [success] Total time: 4 s, completed 23 Feb 2023, 15:19:11
+2023.02.23 15:19:11 INFO  [info] loading settings for project scala-project from build.sbt ...
+2023.02.23 15:19:11 INFO  [info] set current project to scala-project (in build file:/C:/Users/hazem/Desktop/scala/scala-project/)
+2023.02.23 15:19:12 INFO  [success] Generated .bloop\scala-project.json
+2023.02.23 15:19:12 INFO  [success] Generated .bloop\scala-project-test.json
+2023.02.23 15:19:12 INFO  [success] Total time: 0 s, completed 23 Feb 2023, 15:19:12
+2023.02.23 15:19:12 INFO  time: ran 'sbt bloopInstall' in 14s
+2023.02.23 15:19:12 INFO  Disconnecting from Bloop session...
+2023.02.23 15:19:12 INFO  Shut down connection with build server.
+2023.02.23 15:19:12 INFO  Shut down connection with build server.
+2023.02.23 15:19:12 INFO  Attempting to connect to the build server...
+2023.02.23 15:19:12 INFO  Bloop uses C:\Users\hazem\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\hazem\.bloop\bloop.json
+2023.02.23 15:19:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hazem\Desktop\scala\scala-project\.metals\bsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.23 15:19:12 INFO  Attempting to connect to the build server...
+2023.02.23 15:19:12 INFO  Bloop uses C:\Users\hazem\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\hazem\.bloop\bloop.json
+2023.02.23 15:19:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hazem\Desktop\scala\scala-project\project\.metals\bsp.trace.json or C:\Users\hazem\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.02.23 15:19:12 INFO  time: Connected to build server in 0.12s
+2023.02.23 15:19:12 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.23 15:19:14 INFO  time: indexed workspace in 2.16s
+2023.02.23 15:19:17 INFO  time: code lens generation in 2.32s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:97:7: identifier expected but end of file found
+  def 
+      ^
+2023.02.23 15:19:30 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 3.08s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:96:1: 
+Not found: extention
+extention(x: Rational)
+^^^^^^^^^
+2023.02.23 15:20:22 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.9s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:96:1: 
+Not found: extention
+extention (x: Rational)
+^^^^^^^^^
+2023.02.23 15:20:36 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.71s
+2023.02.23 15:20:47 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 2.54s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:100:1: 
+Not found: Rationanl
+Rationanl(1,2) + Rational(1,2)
+^^^^^^^^^
+2023.02.23 15:21:13 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.64s
+2023.02.23 15:21:24 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.59s
+Feb 23, 2023 3:22:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 463
+2023.02.23 15:22:11 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.58s
+2023.02.23 15:22:35 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.25s
+2023.02.23 15:26:08 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.23s
+2023.02.23 15:26:32 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.12s
+Feb 23, 2023 3:28:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 930
+2023.02.23 15:32:11 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.03s
+2023.02.23 15:32:46 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.01s
+2023.02.23 15:33:11 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1s
+Feb 23, 2023 3:33:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1570
+2023.02.23 15:33:23 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.97s
+Feb 23, 2023 3:33:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1644
+Feb 23, 2023 3:33:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1648
+2023.02.23 15:33:59 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.99s
+2023.02.23 15:34:17 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.95s
+2023.02.23 15:34:36 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.13s
+2023.02.23 15:34:38 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.89s
+2023.02.23 15:34:41 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1s
+2023.02.23 15:34:53 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.98s
+Feb 23, 2023 3:38:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$.<clinit>(DebugProvider.scala:865)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$2(DebugProvider.scala:354)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:325)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:406)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:2012)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:81:31: 
+Not found: numer
+  override def toString = s"${numer / g}/${denom / g}"
+                              ^^^^^
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:81:44: 
+Not found: denom
+  override def toString = s"${numer / g}/${denom / g}"
+                                           ^^^^^
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:110:1: 
+value min is not a member of MdocApp.this.Rational
+Rational(2,3) min Rational(1,3)
+^^^^^^^^^^^^^^^^^
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:111:1: 
+value less is not a member of MdocApp.this.Rational
+Rational(1,3) less Rational(2,3)
+^^^^^^^^^^^^^^^^^^
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:112:1: 
+value less is not a member of MdocApp.this.Rational
+Rational(2,3) less Rational(1,3) 
+^^^^^^^^^^^^^^^^^^
+2023.02.23 15:38:13 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.55s
+2023.02.23 15:38:16 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.01s
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:104:5: 
+value numer is not a member of repl.MdocSession.MdocApp - did you mean (MdocApp.this : repl.MdocSession.MdocApp).sumV2?
+    this.numer * r.denom < r.numer * this.denom
+    ^^^^^^^^^^
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:107:8: 
+Found:    MdocApp.this.Rational => Boolean
+Required: Boolean
+    if this.less(r) then this else r 
+       ^^^^^^^^^^^^
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:107:26: 
+Found:    (MdocApp.this : repl.MdocSession.MdocApp)
+Required: MdocApp.this.Rational
+    if this.less(r) then this else r 
+                         ^^^^
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:110:8: 
+Found:    MdocApp.this.Rational => Boolean
+Required: Boolean
+    if this.less(r) then r else this 
+       ^^^^^^^^^^^^
+[31merror[39m: src\main\scala\playground\playground.worksheet.sc:110:33: 
+Found:    (MdocApp.this : repl.MdocSession.MdocApp)
+Required: MdocApp.this.Rational
+    if this.less(r) then r else this 
+                                ^^^^
+2023.02.23 15:38:49 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.66s
+2023.02.23 15:39:06 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 0.89s
+2023.02.23 15:41:55 INFO  time: evaluated worksheet 'playground.worksheet.sc' in 1.22s

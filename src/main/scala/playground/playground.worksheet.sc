@@ -74,6 +74,9 @@ class Rational(x: Int, y: Int):
     Rational(numer * r.numer, denom * r.denom)
 
   def neg = Rational(-numer, denom)
+
+ 
+  
   
   override def toString = s"${numer / g}/${denom / g}"
 end Rational
@@ -92,3 +95,26 @@ val z = Rational(3,2)
 x.sub(y).sub(z)
 
 Rational(2)
+
+extension (x: Rational)
+  def + (y: Rational) = x.add(y)
+  def - (y: Rational) = x.sub(y)
+  def * (y: Rational) = x.mult(y)
+  infix def less(r: Rational): Boolean = 
+    x.numer * r.denom < r.numer * x.denom
+
+  infix def min(r: Rational): Rational =
+    if x.less(r) then x else r 
+
+  infix def max(r: Rational): Rational = 
+    if x.less(r) then r else x 
+
+Rational(1,2) + Rational(1,2)
+Rational(1,1) - Rational(1,2)
+Rational(1,2) * Rational(1,2)
+
+Rational(1,6) + Rational(1,2) * Rational(1,2)
+
+Rational(2,3) min Rational(1,3)
+Rational(1,3) less Rational(2,3)
+Rational(2,3) less Rational(1,3) 
